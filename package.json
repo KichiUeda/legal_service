@@ -1,0 +1,19 @@
+{
+  "name": "legal_service",
+  "version": "1.0.0",
+  "description": "Legal statement mock-up for micro service architecture. Imitating humble bundle",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KichiUeda/legal_service.git"
+  },
+  "author": "Micko Cabacungan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KichiUeda/legal_service/issues"
+  },
+  "homepage": "https://github.com/KichiUeda/legal_service#readme"
+}
