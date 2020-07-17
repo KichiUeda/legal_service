@@ -4,7 +4,7 @@
   "description": "Legal statement mock-up for micro service architecture. Imitating humble bundle",
   "main": ".eslintrc.js",
   "scripts": {
-    "test": "test"
+    "start": "nodemon ./server/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/KichiUeda/legal_service/issues"
   },
-  "homepage": "https://github.com/KichiUeda/legal_service#readme"
+  "homepage": "https://github.com/KichiUeda/legal_service#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
