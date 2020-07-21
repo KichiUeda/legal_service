@@ -50,7 +50,7 @@ export default class App extends React.Component {
     console.log('***LEGAL****')
     console.log(product_id);
     if(product_id) {
-      $.ajax(`http://localhost:3007/api/${product_id}`, {
+      $.ajax(`http://ec2-52-14-126-227.us-east-2.compute.amazonaws.com:3007/api/${product_id}`, {
       method: 'GET',
       success: (data) => {
         //console.log(`REQUEST SUCCESS: ${data}`);
