@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import $ from 'jquery';
 
 const Container = styled.div`
   background-color: #1b1e1b;
@@ -26,6 +27,42 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       statement: `© 2020 Windler - Kovacek. Published and distributed by Ferry - Johnston Group Tempore et optio quia quibusdam eligendi. Ea tempore dolores. Delectus dicta animi facere officiis. Kiehn - Corkery and Sons All rights reserved.`
+    }
+    this.getProductId = this.getProductId.bind(this);
+  }
+
+  getProductId() {
+    let path = window.location.pathname;
+    let arrayPath = path.split('/');
+    let product_id;
+    arrayPath.forEach(str => {
+      if (!isNaN(parseInt(str))) {
+        product_id = parseInt(str);
+      } else {
+        //console.log('String is not a parseable number')
+      }
+    })
+    return product_id;
+  }
+
+  componentDidMount() {
+    let product_id = this.getProductId();
+    console.log('***LEGAL****')
+    console.log(product_id);
+    if(product_id) {
+      $.ajax(`http://localhost:3007/api/${product_id}`, {
+      method: 'GET',
+      success: (data) => {
+        //console.log(`REQUEST SUCCESS: ${data}`);
+        this.setState({
+          statement: data
+        })
+      },
+      error: (err) => {
+        console.log(err);
+        console.log('Client Request Error LEGAL')
+      }
+      })
     }
   }
 
