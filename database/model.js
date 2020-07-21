@@ -8,13 +8,4 @@ const pg = require('knex')({
   }
 });
 
-pg.schema.createTable('statements', (table) => {
-  table.increments('product_id');
-  table.string('statement');
-})
-.then(() => {
-  console.log('created table!');
-  return;
-})
-
 module.exports = pg;
