@@ -30,8 +30,13 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 
 - Node 6.13.0
 - PostGreSQL
+  > You must create a Postgres username and password and place those inside a environemtn variable as the following
+
+  >POSTGRES_HOST, POSTGRES_USER, POSTGRES_PASSWORD, POSTGRES_DATABASE
+
 - Knex installed globally or in project's directory
 - Environment variables set-up
+  >PORT_LEGAL for environment variable name
 
 ## Development
 
