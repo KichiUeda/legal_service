@@ -1,13 +1,11 @@
-# Project Name
+# MicroService for Legal Statements
 
-> Project description
+> A small micro service for Service Oriented Architecture for Legal statement services. This service will place a placeholder statement consistently with product ID's.
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/KichiUeda/legal_service
+  - https://github.com/KichiUeda/Micko-proxy
 
 ## Table of Contents
 
@@ -17,14 +15,20 @@
 
 ## Usage
 
-> Some usage instructions
+***Assuming PostGreSQL is downloaded correctly**
+> npm install
+> npm run seed
+> npm run build
+> npm start
 
 ## Requirements
 
 An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 
 - Node 6.13.0
-- etc
+- PostGreSQL
+- Knex installed globally or in project's directory
+- Environment variables set-up
 
 ## Development
 

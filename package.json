@@ -5,7 +5,8 @@
   "main": ".eslintrc.js",
   "scripts": {
     "start": "nodemon ./server/index.js",
-    "build": "webpack --watch -d"
+    "build": "webpack --watch -d",
+    "seed": "node ./database/seeder.js"
   },
   "repository": {
     "type": "git",
