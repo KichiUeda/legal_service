@@ -17,8 +17,11 @@
 
 ***Assuming PostGreSQL is downloaded correctly**
 > npm install
+
 > npm run seed
+
 > npm run build
+
 > npm start
 
 ## Requirements
