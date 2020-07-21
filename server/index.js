@@ -24,7 +24,7 @@ app.get('/api/:productId', (req,res) => {
     res.end(404);
   })
 })
-console.log(process.env)
+
 const port = process.env.PORT_LEGAL;
 app.listen(port, () => {
   console.log(`Server is Live! Listening on PORT: ${process.env.PORT_LEGAL}`);
