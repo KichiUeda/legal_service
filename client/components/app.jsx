@@ -14,7 +14,6 @@ const ContentContainer = styled.div`
   padding-right: 25px;
 `
 const LegalTitle = styled.h2`
-  padding-top: 5%;
   padding-bottom: 1%;
   padding-left: 1%;
 `
