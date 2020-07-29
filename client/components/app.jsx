@@ -5,16 +5,20 @@ import $ from 'jquery';
 const Container = styled.div`
   background-color: #1b1e1b;
   color: #a1a7b2;
-  padding-bottom: 3%;
+  font-family: 'Sofia Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+`
+const ContentContainer = styled.div`
+  width: 1140px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
 `
 const LegalTitle = styled.h2`
-  font-family: 'Roboto';
   padding-top: 5%;
   padding-bottom: 1%;
   padding-left: 1%;
 `
 const Statement = styled.em`
-  font-family: 'Roboto';
   font-size: 16px;
   line-height: 1.35;
   font-style: italic;
@@ -69,8 +73,10 @@ export default class App extends React.Component {
   render() {
     return (
       <Container>
-        <LegalTitle>LEGAL</LegalTitle>
-        <Statement>{this.state.statement}</Statement>
+        <ContentContainer>
+          <LegalTitle>LEGAL</LegalTitle>
+          <Statement>{this.state.statement}</Statement>
+        </ContentContainer>
       </Container>
     )
   }

@@ -6,6 +6,7 @@
   "scripts": {
     "start": "nodemon ./server/index.js",
     "build": "webpack --watch -d",
+    "production": "webpack -p",
     "seed": "node ./database/seeder.js"
   },
   "repository": {
