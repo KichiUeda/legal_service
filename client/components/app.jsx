@@ -14,6 +14,8 @@ const ContentContainer = styled.div`
   padding-right: 25px;
 `
 const LegalTitle = styled.h2`
+  margin-top: 0px;
+  padding-top: 0px;
   padding-bottom: 1%;
   padding-left: 1%;
 `
