@@ -8,12 +8,12 @@ const Container = styled.div`
   background-color: #1b1e1b;
   color: #a1a7b2;
   font-family: 'Sofia Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
 `
 const ContentContainer = styled.div`
   width: 100%;
-  padding-bottom: 10px;
-  padding-left: 15%;
-  padding-right: 15%;
 `
 const LegalTitle = styled.h2`
   font-size: 16px;
