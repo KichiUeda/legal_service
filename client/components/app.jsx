@@ -8,12 +8,13 @@ const Container = styled.div`
   background-color: #1b1e1b;
   color: #a1a7b2;
   font-family: 'Sofia Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding-bottom: 10px;
-  padding-left: 35px;
-  padding-right: 35px;
+  width: 100%;
 `
 const ContentContainer = styled.div`
-  width: 100%;
+  width: 1140px
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 10px;
 `
 const LegalTitle = styled.h2`
   font-size: 16px;
@@ -26,7 +27,7 @@ const Statement = styled.em`
   font-size: 12px;
   line-height: 1.35;
   font-style: italic;
-  padding-left: 5px;
+  padding-left: 10px;
   text-align: center;
 `
 
