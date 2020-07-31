@@ -11,7 +11,7 @@ const Container = styled.div`
   width: 100%;
 `
 const ContentContainer = styled.div`
-  width: 1140px
+  width: 1140px;
   padding-left: 35px;
   padding-right: 35px;
   padding-bottom: 10px;
