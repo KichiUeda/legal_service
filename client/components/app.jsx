@@ -7,23 +7,23 @@ const Container = styled.div`
   justify-content: center;
   background-color: #1b1e1b;
   color: #a1a7b2;
-  font-size: 15px;
   font-family: 'Sofia Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 `
 const ContentContainer = styled.div`
   width: 100%;
   padding-bottom: 10px;
-  padding-left: 225px;
-  padding-right: 225px;
+  padding-left: 15%;
+  padding-right: 15%;
 `
 const LegalTitle = styled.h2`
+  font-size: 16px;
   margin-top: 0px;
   padding-top: 0px;
   padding-bottom: 1%;
   padding-left: 1%;
 `
 const Statement = styled.em`
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.35;
   font-style: italic;
   padding-left: 5px;
