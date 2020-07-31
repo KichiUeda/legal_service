@@ -24,6 +24,7 @@
 
 > npm start
 
+> url:port/bundle.js -- endpoint for bundle to be used as micro service
 ## Requirements
 
 An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
