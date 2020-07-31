@@ -13,8 +13,8 @@ const Container = styled.div`
 const ContentContainer = styled.div`
   width: 100%;
   padding-bottom: 10px;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 225px;
+  padding-right: 225px;
 `
 const LegalTitle = styled.h2`
   margin-top: 0px;
