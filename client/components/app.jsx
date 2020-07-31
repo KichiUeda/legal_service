@@ -3,15 +3,18 @@ import styled from 'styled-components';
 import $ from 'jquery';
 
 const Container = styled.div`
+  display: flex;
+  justify-content: center;
   background-color: #1b1e1b;
   color: #a1a7b2;
+  font-size: 15px;
   font-family: 'Sofia Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 `
 const ContentContainer = styled.div`
-  width: 1140px;
+  width: 100%;
   padding-bottom: 10px;
-  padding-left: 125px;
-  padding-right: 125px;
+  padding-left: 250px;
+  padding-right: 250px;
 `
 const LegalTitle = styled.h2`
   margin-top: 0px;
